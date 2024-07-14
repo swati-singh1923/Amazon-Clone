@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+/******* Sign In page ***********/
+
+.logo_container {
+    height: 60px;
+    /* background-color: rgb(20, 19, 19); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.logo {
+    height: 60px;
+    width: 120px;
+    background-image: url(Amazon_Logo.wine.svg);
+    background-size: cover;
+}
+
+.form_container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 320px;
+    width: 297px;
+    border: 1px solid rgb(193, 188, 188);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 26px;
+    margin-bottom: 70px;
+}
+
+#text {
+    height: 35px;
+    font-size: 1.8rem;
+    letter-spacing: 0.8px;
+    font-family:  sans-serif;
+}
+
+.email p {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    padding-top: 10px;
+    word-spacing: 2px;
+}
+
+#input {
+    width: 280px;
+    height: 22px;
+    padding: 3px 7px;
+    margin-top: 3px;
+    border: 0.7px solid rgb(172, 170, 170);
+    border-radius: 3px;
+    box-shadow: 0.2px 0.1px 0.2px 0.1px gray;
+}
+
+.continue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 280px;
+    height: 26px;
+    background-color:#fcd71c;
+    border-radius: 8px;
+    padding: 2.5px 7.5px;
+    font-size: 0.85rem;
+}
+
+.continue:hover {
+    background-color: rgb(252, 182, 54);
+}
+
+.continue a {
+    color: black;
+    letter-spacing: 0.1px;
+}
+
+.terms a {
+    color:rgb(53, 84, 194);
+}
+
+.terms {
+    margin-top: 20px;
+    font-size: 0.75rem;
+    letter-spacing: 0.3px;
+}
+
+.need {
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(194, 190, 190);
+    padding-bottom: 25px;
+}
+
+.need a {
+    color: rgb(53, 84, 194);
+    font-size: 0.89rem;
+    
+}
+
+#buy p{
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: black;
+}
+
+.last {
+    margin-top: 5px;
+}
+
+.last a{
+    color: rgb(53, 84, 194);
+    font-size: 0.85rem;
+}
+
+.last:hover {
+    text-decoration: 0.6px solid rgb(53, 84, 194) underline;
+}
+
+.terms a:hover {
+    text-decoration: 0.6px solid rgb(53, 84, 194) underline;
+}
+
+.need a:hover{
+    text-decoration: 0.6px solid rgb(53, 84, 194) underline;
+}
+
+
+.lastpanel {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 80px;
+}
+
+ .new {
+    font-size: 0.8rem;
+    color: #767676;
+} 
+
+.account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    margin-top: 20px;
+    width: 320px;
+    border: 0.8px solid rgb(203, 201, 201);
+    border-radius: 8px;
+    padding: 0px 10px 0px 11px;
+    font-size: 0.85rem;
+    letter-spacing: 0.3px;
+    box-shadow: 0px 1px 3px 1px rgba(227, 225, 225, 0.747);
+    cursor: pointer;
+    color: #0f1111;
+}
+.foot_container
+{
+    height: 100px;
+    margin:10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 1px solid #767676;
+    text-align: center;
+    padding: 10px;
+}
+
+.foot_container a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.8rem;
+    padding-top: 10px;
+    color: rgb(53, 84, 194);
+}
+
+a {
+    text-decoration: none;
+}
+
+.foot_container a:hover{
+    text-decoration: 0.6px solid rgb(53, 84, 194) underline;
+}
+
+.foot_text {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666666;
+    padding: 12px;
+    margin-left: 20px;
+}
